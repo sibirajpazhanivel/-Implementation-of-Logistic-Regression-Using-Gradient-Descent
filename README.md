@@ -8,10 +8,27 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+STEP 1: Start
+
+STEP 2: Load the dataset and drop irrelevant columns (sl_no and salary).
+
+STEP 3: Convert categorical columns (like gender, ssc_b, etc.) into numerical codes using the cat.codes method.
+
+STEP 4: Extract feature values (X) and target values (Y) from the dataset.
+
+STEP 5: Initialize random values for the parameter theta and define the sigmoid function for logistic regression.
+
+STEP 6: Implement the cost function (loss) and the gradient descent algorithm to optimize the parameters theta over multiple iterations.
+
+STEP 7: Use the optimized theta to predict the output using the sigmoid function and classify values based on a threshold of 0.5.
+
+STEP 8: Calculate the accuracy of the predictions by comparing the predicted values (y_pred) with the actual target values (Y).
+
+STEP 9: Print the accuracy, predictions, and actual target values.
+
+STEP 10: Test the model with new input values (xnew) and print the predicted results.
+
+STEP 11: End
 
 ## Program:
 ```
